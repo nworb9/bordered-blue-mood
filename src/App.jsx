@@ -1,4 +1,5 @@
 import React from 'react'
+import {GlobalStyle} from "./styles";
 
 const App = () => {
     const message = (name) => {
@@ -9,6 +10,7 @@ const App = () => {
 
     return (
         <div className="App">
+            <GlobalStyle/>
             <h1>Greetings, Empress 🎎</h1>
             <h2>{message `Hoifa-Nara`}</h2>
         </div>
