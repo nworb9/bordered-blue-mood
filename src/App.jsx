@@ -1,6 +1,6 @@
-import "./styles.css"
+import React from 'react'
 
-export default function App() {
+const App = () => {
     const message = (name) => {
         return `
         ${name} is an empress in Yanxi Palace.
@@ -14,3 +14,5 @@ export default function App() {
         </div>
     )
 }
+
+export default App;
