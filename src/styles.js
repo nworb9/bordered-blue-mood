@@ -11,6 +11,8 @@ body {
   overflow: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Noto Serif', Serif;
+  font-weight: 500;
 }
 `
 
