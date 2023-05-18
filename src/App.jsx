@@ -1,19 +1,13 @@
 import React from 'react'
 import {GlobalStyle} from "./styles";
+import Header from './components/Header'
 
 const App = () => {
-    const message = (name) => {
-        return `
-        ${name} is an empress in Yanxi Palace.
-        `
-    }
-
     return (
-        <div className="App">
+        <>
             <GlobalStyle/>
-            <h1>Greetings, Empress 🎎</h1>
-            <h2>{message `Hoifa-Nara`}</h2>
-        </div>
+            <Header/>
+        </>
     )
 }
 
